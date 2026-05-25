@@ -1,0 +1,124 @@
+name: Submission form for Reproducible Label of ICPR'26
+title: "New submission"
+description: Template for a new Reproducible Label application
+assignees: akrah
+labels: ["New submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill in the fields below to finalize your submission to the Reproducible Label.
+  - type: markdown
+    attributes:
+      value: "## 1 - Submitted paper to ICPR'26"
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: "Title of the paper submitted to ICPR to which this code corresponds"
+      placeholder: "To complete"
+    validations:
+      required: true
+  - type: input
+    id: id
+    attributes:
+      label: Paper ID
+      description: "Number assigned to the paper when it was submitted to ICPR"
+      placeholder: "Example: 16"
+    validations:
+      required: false
+  - type: textarea
+    id: reproducible
+    attributes:
+      label: Reproducible elements
+      description: "Elements of the paper that may be reproduced"
+      value: "Example:\n
+        - Figure 3.\n
+        - 5th column of Table 7.\n
+        - etc."
+      render: markdown
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "## 2 - Source code"
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: "Link to the Git repository (Github, Gitlab, etc.) of my code"
+      placeholder: "Example: https://github.com/... ou https://gitlab.com/..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: language
+    attributes:
+      label: Language
+      description: "Main languages used for the code.\n
+        <i>We do not guarantee that we will be able to evaluate code written in other languages.</i>"
+      options:
+        - label: Python
+        - label: C
+        - label: C++
+        - label: R
+        - label: Other
+  - type: input
+    id: otherlanguage
+    attributes:
+      label: "Precise the other language if concerned"
+      placeholder: "Example: Rust, Javascript, Fortran, etc."
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "## 3 - Software and hardware configuration"
+  - type: checkboxes
+    id: os
+    attributes:
+      label: OS
+      description: "Operating system on which the code was executed to obtain the results in the paper"
+      options:
+        - label: Linux
+        - label: MacOS
+        - label: Windows
+        - label: Other
+  - type: input
+    id: processor
+    attributes:
+      label: Processor(s)
+      description: "Processor(s) used to obtain the results in the paper"
+      placeholder: "Example: Intel® Core™ i7-14700 with 20 cores"
+    validations:
+      required: true
+  - type: input
+    id: ram
+    attributes:
+      label: RAM
+      description: "Amount of RAM used to obtain the results in the paper"
+      placeholder: "Example: 64GB DDR5"
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      description: "GPU(s) of the machine used to obtain the results in the paper"
+      placeholder: "Example: GeForce RTX 5080"
+    validations:
+      required: true
+  - type: input
+    id: execution
+    attributes:
+      label: Estimated execution time
+      description: "By considering the characteristics of the above configuration"
+      placeholder: "Example: 10 seconds, 5 minutes, 1h30, 3 days, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: environment-details
+    attributes:
+      label: Complementary informations
+      description: "Add here any information that could be useful to the reviewer for compiling and/or executing your code."
+      render: markdown
+    validations:
+      required: false
