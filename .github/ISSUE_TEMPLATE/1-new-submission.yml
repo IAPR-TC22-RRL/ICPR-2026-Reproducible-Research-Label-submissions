@@ -1,7 +1,7 @@
 name: Submission form for Reproducible Label of ICPR'26
 title: "New submission"
 description: Template for a new Reproducible Label application
-assignees: akrah
+assignees: mcolom, jcordero1984
 labels: ["New submission"]
 body:
   - type: markdown
