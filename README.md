@@ -22,6 +22,7 @@ If you're a reviewer, please refer to the [reviewer's guide](https://iapr-tc22-r
 
 - Miguel Colom
 - Juan-Antonio Cordero-Fuertes
-- Adrien Krähenbühl
 
 E-mail: [rr_chairs@icpr2026.org](mailto:rr_chairs@icpr2026.org)
+
+Special thanks to Adrien Krähenbühl for his help in the organization of this initiative.
