@@ -8,7 +8,7 @@ This repository centralises the submission and review process for codes submitte
 
 ## Submit your code
 
-<b style='color:red;'>The deadline to confirm participation in the RRPR Badge review is now due.</b>
+<b style='color:#F54927;'>The period to confirm participation in the RRPR Badge review is now due.</b>
 
 For author information, please refer to the [author's guide](https://iapr-tc22-rrl.github.io/icpr2026/authors/).
 
