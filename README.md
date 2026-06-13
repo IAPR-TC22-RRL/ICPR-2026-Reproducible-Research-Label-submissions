@@ -8,9 +8,9 @@ This repository centralises the submission and review process for codes submitte
 
 ## Submit your code
 
-To submit your code, please ▶️ [create a new issue](https://github.com/IAPR-TC22-RRL/ICPR-2026-Reproducible-Research-Label-submissions/issues/new?template=1-new-submission.yml).
+<b style='color:red;'>The deadline to confirm participation in the RRPR Badge review is now due.</b>
 
-For more information, please refer to the [author's guide](https://iapr-tc22-rrl.github.io/icpr2026/authors/).
+For author information, please refer to the [author's guide](https://iapr-tc22-rrl.github.io/icpr2026/authors/).
 
 ## Review a code
 
